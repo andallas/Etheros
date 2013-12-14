@@ -1,0 +1,34 @@
+Hello, and thank you for reading this. We are currently trying to build a team of like minded indie game developers to develop a game with. The game is only a hobby project right now, but we intend to see this game through to the finish. Because of that, we are looking for individuals who want to work on AND complete a game.
+
+About the game
+-------------------------
+Etheros is a space exploration and survival game. It is 2D and has a top-down perspective. Procedural generation and modularity is a big focus of the game. The game world is open-ended and procedural, allowing unlimited replayability and content. All ships (player and NPCs) are made up of one or more ship components, each of these add to the stats and abilities of the specific ship. Some of the features of the game include: Exploration, Combat, Survival, Ship Design and Customization, and Missions.
+
+Here is the [initial prototype](https://dl.dropboxusercontent.com/u/148933520/Space%20Game/index.html).
+
+Please use Chrome, as it is very early and we haven't started looking at cross-browser support yet. Also, if you have a slow machine, it's not going to run well. Each star is an individual game object, so it's laggy on slow machines at the moment.
+WASD/Arrow keys to move.
+Space to shoot.
+Mouse wheel to zoom in/out.
+F11 to go full screen.
+F1, F2, F3, F4 (held down) to adjust background color.
+
+About the team
+-------------------------
+The current team is made up of three individuals: David, Drew, and myself (Justin). David and I have known eachother for several years and have worked on multiple projects together. He is a very talented musician, and has become increasingly skilled in pixel art. I am a pretty decent programmer. I have a solid understanding in many languages, and have experience developing games from the ground up, as well as with common engines. Drew is the most recent member of the team and we are very excited to have him on board. He is a programmer as well, and therefore will help share my load of the work by adding new features, and helping to track down bugs.
+
+The kind of people we are looking for will be dedicated enough to stick with the project until it is complete. We don't expect you to work full-time, as I myself already have a full-time job and have a real life (husband and father here). We do want someone that is excited enough about the project that they want to work on it in their free time. To give an example, some weeks I work on the project for 3-4 hours after work each day, sometimes I don't touch it for 2-3 days. The biggest thing for me is making constant progress though.
+
+Our team is very flexible in terms of location, as we are all located in different areas. We keep a very flexible schedule, and don't have strict meeting times. However, we do expect people to be in communication at least a few days out of the week.
+
+Who we are looking for
+-------------------------
+At the moment, we are a very small team. We have two programmers, and are not currently looking for anymore. What we really need is a talented 2D artist, and we would really like to have a writer. Those are probably the two most critical roles that need to be filled at the moment. We would also like an illustrator/concept artist, but we need to fill the other artist role first.
+
+The artist we are looking for will primarily be a 2D artist. The art style is a bit unique in that it is low-resolution pixel art (16x16 pixel images), that when combined/tiled produce a higher quality image. It is still an overall low resolution format. It may be a bit confusing, but if you are interested, we can go into greater detail on that front. We also want someone who is comfortable with an iterative approach to design. It would be a nice bonus if you were comfortable producing concept art as well, but this is not strictly required.
+
+The ideal writer will be one comfortable with sci-fi. We want someone who enjoys creating new worlds and alien species. A lot of what the writer will be working on is creating alien species, factions & history, and dialogue. As was mentioned before, there is a lot of procedural content generation, and the game world is open-ended. Because of this, there is not a linear storyline to the game.
+
+Interested?
+-------------------------
+If you are still interested after reading all of this, then I'd like to talk over more of the details to make sure we are a good fit for each other, so please feel free to shoot me a PM and maybe we can do a Skype call or something. Thank you for your time.
