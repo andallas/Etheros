@@ -1,4 +1,247 @@
 Etheros
 =======
 
+---------------------------------------------------------------------------
+Summary
+---------------------------------------------------------------------------
 Etheros is a space exploration and survival game. It is 2D and has a top-down perspective. Procedural generation and modularity is a big focus of the game. The game world is open-ended and procedural, allowing unlimited replayability and content. All ships (player and NPCs) are made up of one or more ship components that add to the stats and abilities of the specific ship. NPC ships are created procedurally with the modular ship components.
+
+
+---------------------------------------------------------------------------
+Story
+---------------------------------------------------------------------------
+**Needs to be written, ideas are below
+-	Player is hooked into the command module of a ship. This is why if a command module is destroyed, the ship is destroyed. Outfitting a new command module must be performed at an appropriate facility for this reason as well, because the player must be 'detached' from one command module, then 'reattached' to the other. Similar to how you 'jack-in' to the Matrix. The player's character's brain is essentially the main computer for the ship.
+
+
+---------------------------------------------------------------------------
+Features
+---------------------------------------------------------------------------
+-Exploration
+
+	Players are free to explore the game world by flying in a free-roaming sense through space. Players can scan sectors and regions of space, looking for specific anomolies, and flying or warping to those locations. It may even be possible for players to travel to distant locations via wormhole, or other means.
+	
+	-Fog-of-War
+
+		Etheros has a fog-of-war of sorts, as such, unknown and unexplored areas are not entirely revealed to players. A player can learn of an area, which will reveal 'landmarks' such as planets, semi-stationary hazards (large plasma clouds), and other such things. To truly be aware of what is in an area, a player must visit a location, or send a probe to scan the area. These options offer the greatest level of information, as the player will know of smaller objects, such as ships, mineable asteroids, and other anomolies.
+
+	-Scanning
+
+		A player can perform short and long range scanning via different scanner modules. Short range scanning offers a more granular level of information, but isn't as efficient at longer distances. Long range scanning is just the opposite of short range. It only offers a broad amount of information, yet has a much larger range. Also, long range scanning is not as difficult to counter as short range scanning. An additional form of scanning involves launching a probe to a certain area that will perform a short range scan, and relay the information back to the player. This has the benefit of the information detail from a short range scan, yet the range of a long range scan. The biggest drawback is that a probe can be actively targetted and destroyed. It also inhibits the ability to covertly scan an area at range, as the probe itself can be picked up by others scans. Some scanners can even backtrace a probe to find the location of the ship that launched it.
+
+	-Warping
+
+		Some ships have antimatter warp drives installed. This gives the ability to travel through sub-space and arrive at locaitons at great distances in a fraction of the time. However, warping to a location is not as precise as manually travelling there. Another effect is that the fog-of-war between the entry point of sub-space and the exit point of sub-space (distance travelled) is not uncovered.
+
+	-Wormholes
+
+		A wormhole is a special type of anomoly that acts similar to warping. There are differences though. A player cannot control the entry or exit point of a wormhole, it is basically a tunnel. Travel is instantaneous. Wormholes are not stable, meaning they can close abruptly. A wormhole will generally take a traveller a much further distance than any other method of travel. There is also no real way to scan through a wormhole. A probe can be sent through, but unless the other end of the wormhole happens to be within the standard range, no signal will be received.
+
+	-Civilizations
+
+		The game will have multiple alien species, each with their own faction. Each of these species factions will have their own sub-factions as well. A faction groups different players and NPCs together. From a players perspective a faction will have a reputation level that indicates how well they get along with the player. This can help a player to identify friend and/or foe. At different reputation levels, a faction may offer missions for the player, or place bounties on the player. A player can be a part of multiple factions, and each faction keeps it's own record of the players reputation level.
+
+-Survival
+
+	Etheros has an emphasis on survival gameplay, and this does not just include combat. A player or NPC must manage their resources, as well as a plethora of hazards. Resource management includes; food, water, energy, ammunition, and fuel. The hazards can include; EMPs, radiation, heat, oxygen, gravity, and sewage.
+	
+	-Resource management
+
+		As a player travels through the game world of Etheros, they must constantly balance their resources to ensure they don't run out of needed supplies. A ships crew needs to eat and drink. Many ship components use energy to power them, without this energy the ship component won't run. As often happens, combat will occur. Many weapons consume ammunition, without this resource, a ship may be caught defenseless. Fuel powers most thrusters and engines. Fuel is used by engines to create the energy required to run different ship components, so it is another essential resource.
+
+	-Hazards
+
+		Space is a very dangerous place, and as such, Etheros seeks to emulate that aspect. While travelling through space a player may encounter plasma storms or certain areas which have an EMP effect while in it. This will render all energy based systems to either malfunction, or simply not be available. This can have a serious impact on survivability. Certain areas, or around stars, there may be large amounts of radiation. Ships have a certain amount of shielding, but it isn't always enough. Radiation has serious implications on crew health and effectiveness, unchecked, radiation can completely wipe out a crew. Stars have another serious hazard, and that is heat. Getting too near to a star, even with radioactive shielding, can still burn a crew to death. Oxygen is required for a ships crew to breath. Certain things may cause a lack of oxygen which can damage or even kill crew. This includes; fires onboard, cracks in the hull, or even poisonous gases onboard the ship. Certain orbital bodies have gravitational pull, such as stars, large asteroids, planets, and even black holes. If a ship gets too close to one of these bodies, then it can pull the ship in, causing it to crash to the surface, destroying the entire crew and ship. A final hazard is that of sewage. The crew produces sewage due to biological functions, and regulations forbid the dumping of sewage or other materials haphazardly in space. There are multiple ways to handle sewage, which can involve temporary storage onboard, depositing at designated recylcing facilities, or risking a bounty and dumping it.
+
+-Combat
+
+	Players can engage in combat in a variety of ways. These include, but may not be limited to; Player vs. Player combat, piracy and bounty hunting, faction warfare, etc...
+	
+	-Destuctable Ships
+
+		In the same way that players can construct their own ships in Etheros, the ships are also destructable. Every component on a ship has it's own hitbox, and can be individually targetted and destroyed. Once a component is destroyed, the ship will lose the capabilities and statistics provided by that component. This allows for a varied amount of tactics and strategies, enabling players to pursue combat in their own unique style.
+
+	-PvP
+
+		Player vs. Player combat is combat between to or more player controlled ships. Friendly fire is on in game at all times, so the players in combat, may or may not be 'allied'. We may develop a dueling system in which players may battle each other without the consequences of losing their ship, but also without the rewards of winning a battle.
+
+	-Piracy
+
+		Piracy is when a player attacks another player or NPC with the intent of stealing their cargo or ship components. Generally the intent of piracy is not to defeat an opponent, but rather to immobilize it so as to capture goods. Although, often times destroying an opponent may be a faster way to achieve that goal.
+	
+	-Bounty Hunting
+
+		Bounty Hunting is when a player captures or destroys a wanted individual, whether player or NPC, and is rewarded with the bounty (generally in the form of credits). Bounties are placed on individuals who commit crimes in law enforced zones. Due to the vastness of space, there are only a limited number of law enforced zones, and these generally encompass large populations.
+	
+	-Faction Warfare
+
+		There are many factions in Etheros, and most of these are divided by species, yet many species break into multiple factions, and some factions are idealogically based; allowing for multiple species. Often times, factions have disputes which, when escalated, can turn into open combat. If a player or NPC is identified as an opposing faction, it may be attacked by opposing individual who identified it. This does not mean that a player or NPC is automatically identified as their given faction. Faction warfare usually ends with the change of territory, and in rare cases, the destruction of an entire faction.
+
+-Missions
+
+	Etheros has a dynamic, procedural mission system. Players can receive missions from nearly any NPC, if available. The missions are dynamic in the sense that they actually affect the game world. If a mission involves destroying a factions space station, then the space station doesn't just 'respawn' later. Once destroyed, it is actually gone. This has additional reprecussions, mostly that the opposing faction will likely have a bit of animosity towards the player. The missions are procedural in the sense that they aren't just randomly picked from a table. There will be an intelligent algorithm with multiple weights that affect possible quests.
+
+		-NPC missions
+
+			If a merchant or trader NPC is being harrassed by pirates, they may offer a mission to the player to eliminate those pirates, or depending on their personality, they may simply ask for an escort, or even just ask the player to deliver the items for them. A pirate or other outlaw may offer a mission to the player that will pit them against an otherwise friendly faction, this may be to help build report, and to test the player, to see if they are willing to 'do the dirty work'.
+
+		-Faction missions
+
+			Factions may also offer up missions, rather than individual NPCs. These missions are generally only offered to individuals that have a higher reputation and favorability with that faction. Often times the rewards are not as high as from an individual NPC, but there are other intrinsic rewards, such as more favorability or reputation.
+
+-Ship design and customization
+
+	In Etheros, players have a lot of customization and upgrade options available to them in regards to their ships. Ships can be fully customized aesthetically as well as in more functional ways.
+	
+	-Ship Components
+
+		Every ship in Etheros is built from different components. Every ship also contains at a minimum, a command module component. A command module is the heart of a ship. Alone, it is not too disimilar to an escape pod, or a shuttle. Every other component is attached to the base component, or another already attached component. Each component has different stats, depending on their type. These stats are combined to produce an overall stat for the ship as a whole. Every component has a stat for it's mass that affects the physics of the ship as a whole, every component also has a stat that represents the hull, however this stat is only used for that specific component. The hull is the core defense type, and it is highly effective at mitigating the damage from plasma and beam based weapons, but is relatively weak against kinetic damage types. Every component can also be targetted individually. This means that if a component is being hit, then that specific component takes damage, and loses efficiency.
+
+		-Command Module
+
+			The command module component is the heart of a ship. Alone, it has a simple thruster to allow the ship to move, but not much else. Any and every other component on a ship can be destroyed other than the command module, and the ship will survive. However, if this component is destroyed, the ship is destroyed, regardless of any other 'surviving' components.
+
+		-Armor Plating
+
+			The armor plating component is a defensive component that provides protection from multiple weapon types. These pieces are high in Mass because they are made from very dense metals. They provide superior protection from kinetic and beam based weapons, however plasma based weapons are especially effective against armor plating.
+
+		-Fuel Cell
+
+			The fuel cell component can be thought of as the gas tank. It holds the fuel for the ship. Unfortunately, it has the side effect of not being very stable, so if destroyed, it will generally explode, causing splash damage to other, nearby components.
+
+		-Capacitors
+
+			The capacitor component stores produced energy for use later. Upgrading or adding these components to a ship will allow for a higher maximum energy level. They can be thought of as a battery. If destroyed, there is a chance that an electromagnetic discharge can occur, temporarily disabling nearby, energy based components.
+
+		-Cargo Hold
+
+			The cargo hold component is used to store goods on the ship. Anything that is not already stored in another component (fuel, energy, etc...) is stored in the cargo hold components. This has an intersting affect on the overall mass of a ship, as the mass of the cargo hold component is tied to how much mass is currently being stored in it. When a cargo hold component is destroyed, there is a chance that the contents can be lost. This does not always occur, and often times, when the component is retrieved, the contents (or a portion of them) will still be in the component.
+
+		-Ship Hangar
+
+			The ship hanger component is a larger component that allows for small, fighter ships to dock with the ship, as well as take off from the ship. This component is used heavily in carrier type ships that rely on the support of squadrons of fighters. Any fighters that are not docked when a ship hanger component is destroyed are not automatically destroyed. In fact, if there are additional ship hangers available, with space, then the 'extra' fighters may just dock in those hangers.
+
+		-Signal Jammer
+
+			The signal jammer component is an electronic warfare counter-measure that can be installed on ships. The primary purpose of this component is to reduce, or possibly nullify the ability of probes and scans to detect the ship. Certain signal jammers may even be used in an offensive stance to disable a specific ship or probes scanners, so that they cannot reveal anything in their scans.
+
+		-Mining Laser
+
+			The mining laser component is non-combat laser that is effective at mining minerals from asteroids and other mining locations. Some mining lasers may even have built in tractor beams that are specialized at retrieving the mined materials.
+
+		-Cloaking Device
+
+			The cloaking device component is another electronic warfare component. This component is not as effective at masking the visibility of the ship in terms of scanners, although it renders the ship nearly invisible to other ships.
+
+		-Bridge
+
+			** This component needs further thought. What is the actual purpose of it?
+			** Possibly something to do with visuals and/or navigation?
+
+		-Shield Generators
+
+			The shield generator component is responsible for generating a shield around the ship. How a shield works is that it provides a shield around the entire ship. Now depending on the size of the ship, the shield may have to be 'spread-thin', offering less protection to larger ships. Multiple shield generators can be placed on a ship to increase the effectiveness. Shields provide superior protection from plasma and kinetic based weapons, yet beam based weapons are not supressed nearly as well.
+
+		-Scanner
+
+			The scanner component allows the player to scan for ships, planets, wormholes, and other anomolies. There are two main varieties, the long range scanner, and the short range scanner. Basic scanners also provide the minimap in the HUD.
+
+		-Tractor Beam
+
+			The tractor beam component is a utility component that is used to collect items from outside of the ship. Normally a ship would need to collide with an item to collect. With a tractor beam, anything within a certain radius of the ship will automatically be targetted by the ship, and pulled in. This is very useful for scavenging operations, and can even aid in mining.
+
+		-Drone bay
+
+			The drone bay component is similar to the ship hanger component in the sense that it houses smaller craft. There are some subtle differences though. The initial differences is that the drone bay requires more energy to operate than a ship hanger. This is because the drones launched from it are automated, and controlled by the drone bay. A side effect of this is that if the drone bay is destroyed, the drones that correlate to that drone bay no longer function. The advantage of a drone bay is that drones come in a large variety. Their are combat drones, repair drones, mining drones, etc... In fact, their are even some drones that will add ship components to a players ship, so that they do not even need to dock at a station to upgrade/customize their ship.
+
+		-Thrusters
+
+			The thruster component is the driving force of the ship. Each thruster adds additional acceleration and maximum speed to a ship. Thruster come in a variety of types and sizes, and not every thruster utilizes the same power source.
+
+		-Engines
+
+			The engine component is a critical piece of any ship. It's function is to convert a fuel source into usable energy. Generally this requires fuel, but their are possible alternatives in the Etheros universe. As an engine sustains damage, it's efficiency is lessened, producing less and less energy for the same amount of fuel.
+
+		-Warp Drive
+
+			The warp drive component is an intersting one, in that it not only allows a ship to warp through subspace to travel great distances in a fraction of the time, but it also uses energy to create Antimatter, the resource required to perform a warp jump. Due to the unstable nature of the antimatter, if a warp drive is destroyed, their is a very high chance that the attached ship may implode, destroying everything and everyone aboard.
+
+		-Weapons
+
+			The weapon components come in a variety of types. There are kinetic weapons, plasma weapons, and beam weapons.
+				
+				-Kinetic
+
+					Physical weapons are superior against the hull of a ship. The armor and shields of a ship are both effective at mitigating the damage from kinetic based weapons. Ammunition is a requirement for kinetic based weapons. Examples of kinetic weapons are rail guns, gausse cannons, and missile launchers. There are many other types, this is just a small sampling to give a general idea.
+				
+				-Plasma
+
+					Plasma weapons are superior against the armor of a ship. This is due to the fact that they literally melt through armor. As shields and hull have heat resistence, they are ideal at mitigating the use of plasma based weapons. Plasma uses energy as a power source. An example of a plasma weapons is a particle cannon.
+				
+				-Beam
+
+					Beam weapons are superior against the shield of a ship. The armor and hull of a ship are very efficient at mitigating the damage caused by beam based weapons. Beams also use energy as a source of power. Lasers are the most common type of beam weapon available.
+
+	-Upgrading
+
+		Ship components have different tiers which correlate to their power, functionality, efficiency, and/or general usefulness. Within each tier, there are different levels a ship component can be upgraded to. A higher level indicates a more powerful ship component. The process of upgrading a ship component will increase it's level, for a cost. A ship component cannot be upgraded to a higher tier. A higher tier is simply a different ship component. Upgrading a ship component will generally cost money, and will usually require that the ship be docked. There will usually be an option to offset the cost of the upgrade, by providing the required materials for an upgrade, although the cost will not ever be 0.
+
+	-Aesthetics
+
+		Ship customization is purely an aesthetic component in Etheros. Every ship component has portions that contain custom colors. These sections can be 'painted', or have the color adjusted on them by the player. Each component can have an individual color, though the default option is to color the entire ship with the custom color. Some ship components may have a second custom color, though this is generally reserved for the larger ship components.
+
+		Some ship components have different styles as well, to help the player obtain the specific look that they are trying to achieve for their ship. A player can adjust certain ship components so that they appear to be right facing, rather than left, for example.
+
+
+---------------------------------------------------------------------------
+Mechanics
+---------------------------------------------------------------------------
+-Physics
+
+	In Etheros, all movement is physics based. We accomplish this by having every component have a certain amount of mass, and every thruster will exert a certain amount of force. Using the basic acceleration formula, we just divide our force by our mass to determine our actual acceleration. Fortunately, we don't stop there. We have implemented our own physics rules into the equation to give the game a better feel. In reality, there isn't air resistance in space to give friction, so you would need to use reverse thrusters to slow down, or to stop rotating. As interesting as this may be, it unfortunately doesn't make for a great play experience, so there is a level of built in friction.
+
+	Collisions don't just make things bounce off of eachother, it can damage, or even destroy ship components. A collision is considered as kinetic damage, so it will cause an amount of damage based off of multiple factors, and multiplied based off of the damage/defense table found in the 'Damage and defense types' section.
+	
+-Damage and defense types
+
+	There are three damage types and three defense types. These different types all balance each other out to provide a well rounded combat system. Below are some tables to help describe the relative effectiveness and relationships between different combat stats.
+
+					| Armor | Shield | Hull |
+		------------|-------|--------|------|
+		Kinetic 	|   L   |   M    |  H   |
+		------------|-------|--------|------|
+		Plasma 		|   H   |   L    |  M   |
+		------------|-------|--------|------|
+		Beam 		|   M   |   H    |  L   |
+		------------|-------|--------|------|
+		* Guided projectile idea, missile follows mouse cursor after launched.
+
+		L 	=	x0.5 damage
+		M 	=	x1.0 damage
+		H 	=	x1.5 damage
+
+					| RoF | Dam | Ran | Acc |
+		------------|-----|-----|-----|-----|
+		     RoF    |#####|  M  |  M  |  L  |
+		------------|-----|-----|-----|-----|
+		     Dam    |  M  |#####|  L  |  M  |
+		------------|-----|-----|-----|-----|
+		     Ran    |  M  |  L  |#####|  M  |
+		------------|-----|-----|-----|-----|
+		     Acc    |  L  |  M  |  M  |#####|
+		------------|-----|-----|-----|-----|
+		*	This table assumes the row refers to a High stat, and the columns are the relative state based off of the high stat. For example, a high RoF would result in medium damage and range, and low accuracy.
+		**	This table is a baseline only, more powerful weapons exist that may go against this table, as well as weaker weapons.
+
+		RoF		=	Rate of Fire
+		Dam 	=	Damage
+		Ran 	=	Range
+		Acc 	=	Accuracy
+
+-Ship creation
+
+	Adding components to a ship will take place from within a GUI. Generally this menu is only accessed from within a space station, or when the players ship is otherwise 'docked' at a location. There are certain, rare, drones that can attach ship components to a player while in flight. Based upon a few factors, primarily the skill level of the players character, there will be a grid of a specific size. The player will drag components from their inventory onto this grid, and if the ship component is able, then it is attached at that location. Think of how the equipment works in classic RPG or hack'n'slash games (Diablo series).
+
+	There must always be a command module component installed, as this is the heart of every ship. Also, the command module can only be replaced while a ship is docked, so drones cannot replace them. This is primarily due to the fact that the player's character is 'plugged-in' or connected to the command module, and replacing would require that the ship be stopped, and the player's character leave the ship.
+
+	Initially the size of the grid is a simple 5x5 grid. As the player's character advances in skill, and possibly through other means, the size of the grid can and will be increased, allowing for larger ships. Not every slot in the grid needs to be filled with a component, and only one component can reside in a slot at any one time. Some components take up more than one slot. These components generally have greater power, abilities, or functionality than their smaller counterparts.
