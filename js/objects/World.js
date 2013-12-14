@@ -105,7 +105,7 @@ var World = (function(World)
 									anchor: "center"
 								});
 		this.player.init();
-
+		console.log(GetShipCentroid(this.player));
 	// Enemies
 		this.enemies = [];
 		for(var i = 0; i < 15; i++)

@@ -15,7 +15,7 @@ document.write('<script src="js/modules/SpriteSheet.js"></script>');
 document.write('<script src="js/modules/Parallax.js"></script>');
 document.write('<script src="js/modules/Background.js"></script>');
 document.write('<script src="js/modules/Camera.js"></script>');
-
+document.write('<script src="js/modules/centroid.js"></script>');
 var Firestorm = (function(Firestorm)
 {
 	// Flags
